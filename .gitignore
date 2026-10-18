@@ -1,0 +1,23 @@
+# Secrets: never commit the real key
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local-only runtime files
+output/_selftest/
+output/pending_actions.json
+output/outbox.json
+output/payments.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
